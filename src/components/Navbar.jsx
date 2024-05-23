@@ -101,6 +101,25 @@ const Navbar = () => {
               )}
             </button>
           </div>
+          {/* nav items for mobile devices */}
+          <div
+            className={`space-y-4 px-4 py-7 mt-16 bg-brandPrimary ${
+              isOpenMenu ? "block top-0 left-0 right-0 fixed " : "hidden"
+            }`}
+          >
+            {navItems.map(({ link, path }) => (
+              <Link
+                to={path}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                key={path}
+                className=" text-base block text-white hover:text-brandPrimary first:font-medium "
+              >
+                {link}
+              </Link>
+            ))}
+          </div>
         </div>
       </nav>
     </header>
