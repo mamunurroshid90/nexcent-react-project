@@ -61,7 +61,7 @@ const Navbar = () => {
             <span className=" text-brandSecondary capitalize">nexcent</span>
           </a>
           {/* <navItem for large devices */}
-          <ul className=" md:flex space-x-12 hidden">
+          <ul className=" md:flex space-x-12 hidden cursor-pointer">
             {navItems.map(({ link, path }) => (
               <Link
                 to={path}
