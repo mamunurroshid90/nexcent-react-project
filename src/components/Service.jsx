@@ -6,19 +6,19 @@ const Service = () => {
       id: 1,
       title: "Membership Organisations",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/public/images/cart-icons/Icon1.png",
+      icon: "/images/cart-icons/Icon1.png",
     },
     {
       id: 2,
       title: "National Associations",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/public/images/cart-icons/Icon2.png",
+      icon: "/images/cart-icons/Icon2.png",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/public/images/cart-icons/Icon3.png",
+      icon: "/images/cart-icons/Icon3.png",
     },
   ];
   return (
