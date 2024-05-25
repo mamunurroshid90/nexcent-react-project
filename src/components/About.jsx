@@ -46,7 +46,7 @@ const About = () => {
             <div className=" space-y-8">
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="/src/assets/member.png" alt="memberImg" />
+                  <img src="src/assets/member.png" alt="memberImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -57,7 +57,7 @@ const About = () => {
               </div>
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="/src/assets/club.png" alt="clubImg" />
+                  <img src="src/assets/club.png" alt="clubImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -70,7 +70,7 @@ const About = () => {
             <div className=" space-y-8">
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="/src/assets/event.png" alt="eventImg" />
+                  <img src="src/assets/event.png" alt="eventImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -81,7 +81,7 @@ const About = () => {
               </div>
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="/src/assets/payment.png" alt="paymentImg" />
+                  <img src="src/assets/payment.png" alt="paymentImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">

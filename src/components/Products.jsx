@@ -69,32 +69,32 @@ const Products = () => {
                 <div>
                   <div className=" flex items-center gap-8 flex-wrap">
                     <img
-                      src="/src/assets/company1.png"
+                      src="src/assets/company1.png"
                       alt="companyImg1"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company2.png"
+                      src="src/assets/company2.png"
                       alt="companyImg2"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company3.png"
+                      src="src/assets/company3.png"
                       alt="companyImg3"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company4.png"
+                      src="src/assets/company4.png"
                       alt="companyImg4"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company5.png"
+                      src="src/assets/company5.png"
                       alt="companyImg5"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company6.png"
+                      src="src/assets/company6.png"
                       alt="companyImg6"
                       className=" cursor-pointer"
                     />
