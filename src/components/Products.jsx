@@ -1,7 +1,7 @@
 import React from "react";
 
-import mobileLogin from "../assets/mobile-login.png";
-import maecenes from "../assets/maecenes.png";
+import mobileLogin from "../../public/images/mobile-login.png";
+import maecenes from "../../public/images/maecenes.png";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Products = () => {
@@ -69,32 +69,32 @@ const Products = () => {
                 <div>
                   <div className=" flex items-center gap-8 flex-wrap">
                     <img
-                      src="src/assets/company1.png"
+                      src="/images/company/company1.png"
                       alt="companyImg1"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="src/assets/company2.png"
+                      src="/images/company/company2.png"
                       alt="companyImg2"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="src/assets/company3.png"
+                      src="/images/company/company3.png"
                       alt="companyImg3"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="src/assets/company4.png"
+                      src="/images/company/company4.png"
                       alt="companyImg4"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="src/assets/company5.png"
+                      src="/images/company/company5.png"
                       alt="companyImg5"
                       className=" cursor-pointer"
                     />
                     <img
-                      src="src/assets/company6.png"
+                      src="/images/company/company6.png"
                       alt="companyImg6"
                       className=" cursor-pointer"
                     />

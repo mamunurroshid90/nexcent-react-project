@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Footer } from "flowbite-react";
-import logo from "../assets/logo.png";
+import logo from "../../public/images/logo.png";
 import {
   BsDribbble,
   BsFacebook,

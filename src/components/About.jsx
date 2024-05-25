@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutImg from "../assets/about1.png";
+import AboutImg from "../../public/images/about1.png";
 
 const About = () => {
   return (
@@ -46,7 +46,7 @@ const About = () => {
             <div className=" space-y-8">
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="src/assets/member.png" alt="memberImg" />
+                  <img src="/images/member.png" alt="memberImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -57,7 +57,7 @@ const About = () => {
               </div>
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="src/assets/club.png" alt="clubImg" />
+                  <img src="/images/club.png" alt="clubImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -70,7 +70,7 @@ const About = () => {
             <div className=" space-y-8">
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="src/assets/event.png" alt="eventImg" />
+                  <img src="/images/event.png" alt="eventImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">
@@ -81,7 +81,7 @@ const About = () => {
               </div>
               <div className=" flex items-center gap-4">
                 <div>
-                  <img src="src/assets/payment.png" alt="paymentImg" />
+                  <img src="/images/payment.png" alt="paymentImg" />
                 </div>
                 <div>
                   <h4 className=" text-2xl text-neutralDGrey font-semibold">

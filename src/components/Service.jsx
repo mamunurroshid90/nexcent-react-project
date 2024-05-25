@@ -6,19 +6,19 @@ const Service = () => {
       id: 1,
       title: "Membership Organisations",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/src/assets/cart-icons/icon1.png",
+      icon: "/public/images/cart-icons/Icon1.png",
     },
     {
       id: 2,
       title: "National Associations",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/src/assets/cart-icons/icon2.png",
+      icon: "/public/images/cart-icons/Icon2.png",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/src/assets/cart-icons/icon3.png",
+      icon: "/public/images/cart-icons/Icon3.png",
     },
   ];
   return (
@@ -32,13 +32,13 @@ const Service = () => {
         </p>
         {/* company name */}
         <div className=" my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src="src/assets/company1.png" alt="company1" />
-          <img src="src/assets/company2.png" alt="company2" />
-          <img src="src/assets/company3.png" alt="company3" />
-          <img src="src/assets/company4.png" alt="company4" />
-          <img src="src/assets/company5.png" alt="company5" />
-          <img src="src/assets/company6.png" alt="company6" />
-          <img src="src/assets/company7.png" alt="company7" />
+          <img src="/images/company/company1.png" alt="company1" />
+          <img src="/images/company/company2.png" alt="company2" />
+          <img src="/images/company/company3.png" alt="company3" />
+          <img src="/images/company/company4.png" alt="company4" />
+          <img src="/images/company/company5.png" alt="company5" />
+          <img src="/images/company/company6.png" alt="company6" />
+          <img src="/images/company/company7.png" alt="company7" />
         </div>
       </div>
 

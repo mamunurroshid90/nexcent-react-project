@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import logo from "../assets/logo.png";
+import logo from "../../public/images/logo.png";
 import { Link } from "react-scroll";
 import { RxCross2 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa";
