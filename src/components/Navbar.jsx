@@ -69,7 +69,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className=" text-base block text-grey900 hover:text-brandPrimary first:font-medium "
+                className=" text-base block text-grey900 hover:hover:text-orange-500 first:font-medium "
               >
                 {link}
               </Link>
@@ -82,7 +82,7 @@ const Navbar = () => {
               href="/"
               className=" hidden lg:flex items-center text-brandPrimary hover:text-grey900"
             >
-              login
+              Login
             </a>
             <button className=" bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralGrey">
               Sign up
@@ -103,7 +103,7 @@ const Navbar = () => {
           </div>
           {/* nav items for mobile devices */}
           <div
-            className={`space-y-4 px-4 py-7 mt-16 bg-brandPrimary ${
+            className={`space-y-4 px-4 py-7 mt-16 bg-slate-700 ${
               isOpenMenu ? "block top-0 left-0 right-0 fixed " : "hidden"
             }`}
           >
@@ -114,7 +114,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className=" text-base block text-white hover:text-brandPrimary first:font-medium "
+                className=" text-base block text-white hover:text-orange-500 first:font-medium cursor-pointer"
               >
                 {link}
               </Link>
