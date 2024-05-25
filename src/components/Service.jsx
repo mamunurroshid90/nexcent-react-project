@@ -6,7 +6,7 @@ const Service = () => {
       id: 1,
       title: "Membership Organisations",
       desc: "Our membership management software provides full automation of membership renewals and payments",
-      icon: "/images/cart-icons/Icon1.png",
+      icon: "/images/cart-icons/icon1.png",
     },
     {
       id: 2,
